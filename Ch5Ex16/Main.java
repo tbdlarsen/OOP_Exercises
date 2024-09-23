@@ -5,9 +5,9 @@ public class Main{
       
 
 
-        String msg = (x & 1 == 1) ? "odd":"even";
+        String msg = (x & 1) == 1 ? "odd":"even";
 
-        // x, &,==, ?, :, "odd", and "even".
+        //String msg = x % 1 == 1 ? "odd":"even";
         
    
         System.out.println("x is " + msg);
