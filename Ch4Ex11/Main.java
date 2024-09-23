@@ -4,8 +4,8 @@ public class Main {
     
     boolean done = true;
     // bool cannot be converted to int, unlike C language. 
-    int x = (int) done;
-
+    //int x = (int) done;
+    System.out.println(done);
     }
 
 }
