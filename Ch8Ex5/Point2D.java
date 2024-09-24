@@ -13,7 +13,7 @@ public class Point2D {
         this.y = y;
     }
 
-    int getx(){
+    int getX(){
         return this.x;
     }
 
