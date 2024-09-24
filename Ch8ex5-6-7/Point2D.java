@@ -1,25 +1,19 @@
 public class Point2D {
 
     //instance variables
-    private int x;
-    private int y;
+    int x;
+    int y;
 
-
-    //setter and getter methods
-    public void setX(int x){
+    //contructor
+    Point2D(int x, int y){
         this.x = x;
-    }
-
-    public void setY(int y){
         this.y = y;
+
     }
 
-    public int getX(){
-        return this.x;
-    }
-
-    public int getY(){
-        return this.y;
+    //method for creating the values of point
+    public static Point2D create(int x, int y){
+        return new Point2D(x, y);
     }
 
     //euclidian distance to another 2d point
@@ -33,6 +27,17 @@ public class Point2D {
         //returns euclidian distance
         return Math.sqrt((diffX*diffX)+(diffY*diffY));
 
+    }
+
+
+
+    //methods for getting the values of specific point
+    public int getX(){
+        return this.x;
+    }
+
+    public int getY(){
+        return this.y;
     }
 
 
