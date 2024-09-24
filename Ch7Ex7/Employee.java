@@ -11,3 +11,5 @@ public static void main(String[] args) {
 
 
 }
+
+// output is null, false, 0.0, since the instance variables are not given a value when created
