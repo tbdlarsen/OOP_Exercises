@@ -1,4 +1,4 @@
-the list of all the exercises for week 4 can be found in this file.
+The list of all the exercises for week 4 can be found in this file.
 
 # Ch4Ex7 
 consider the folowing two variable declarations.
