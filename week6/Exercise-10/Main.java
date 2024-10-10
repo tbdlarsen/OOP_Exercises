@@ -1,6 +1,6 @@
 public class Main{
 
-    public int x = 10;
+    public int x = 9;
     public void xCompare(){
         assert (x < 10) : "x must be greater than 10.";
 
